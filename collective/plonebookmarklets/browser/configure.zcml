@@ -1,0 +1,48 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+	   xmlns:browser="http://namespaces.zope.org/browser"
+	   xmlns:view="http://namespaces.zope.org/view"
+           xmlns:five="http://namespaces.zope.org/five"
+           xmlns:i18n="http://namespaces.zope.org/i18n"
+           i18n_domain="PloneBookmarklets">
+
+ 
+  <browser:page
+        name="bookmarklets"
+        for="collective.plonebookmarklets.interfaces.IPortalObject"
+        class=".BookmarkletsView"
+        template="bookmarklets.pt"
+        permission="zope2.View"
+        layer="..interfaces.IPloneBookmarkletsLayer"
+  />
+
+
+  <browser:viewlet
+     name="plonebookmarklets.documentactions"
+     manager="plone.app.layout.viewlets.interfaces.IBelowContentBody"
+     permission="zope2.View"
+     class=".viewlets.BookmarkletsActionsViewlet"
+     layer="..interfaces.IPloneBookmarkletsLayer"
+     />
+
+  <utility
+     provides="zope.schema.interfaces.IVocabularyFactory"
+     component=".controlpanel.availablevocab"
+     name="bookmarklets.availablevocab"
+     />
+
+  <adapter factory=".controlpanel.bookmarkletsControlPanelAdapter" />
+
+  <browser:page
+     name="bookmarklets-controlpanel"
+     for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+     class=".controlpanel.BookmarkletsControlPanel"
+     permission="cmf.ManagePortal"
+     layer="..interfaces.IPloneBookmarkletsLayer"
+    />
+
+
+  <five:traversable class="OFS.Application.Application" /> 
+  
+  <five:traversable class="Products.CMFCore.PortalObject.PortalObjectBase" />
+
+</configure>

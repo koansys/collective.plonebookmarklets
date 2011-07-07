@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PloneBookmarklets\n"
+"POT-Creation-Date: 2009-07-21 22:21+0000\n"
+"PO-Revision-Date: 2009-07-29 16:21-0700\n"
+"Last-Translator: Jessie Zhu <jessie.zhu@usu.edu>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: zh-cn\n"
+"Language-Name: Simplified Chinese\n"
+"Preferred-Encodings: utf-8\n"
+"Domain: PloneBookmarklets\n"
+
+#. Default: "Bookmark this content"
+#: ./profiles/default/actions.xml
+msgid "Bookmark this content"
+msgstr "给这个内容做书签"
+
+#: ./browser/controlpanel.py:91
+msgid "Bookmarking Site Icon"
+msgstr "书签网址图标"
+
+#: ./browser/controlpanel.py:81
+msgid "Bookmarking Site Name"
+msgstr "书签网址名字"
+
+#: ./browser/controlpanel.py:85
+msgid "Bookmarking Site Referring URL"
+msgstr "书签网址"
+
+#. Default: "Bookmarks"
+#: ./profiles/default/actions.xml
+msgid "Bookmarks"
+msgstr "书签"
+
+#: ./browser/controlpanel.py:73
+msgid "Choose which bookmarking services are displayed"
+msgstr "选择显示的书签服务"
+
+#: ./browser/controlpanel.py:72
+msgid "Displayed Bookmarklets"
+msgstr "显示的书签列表"
+
+#: ./browser/controlpanel.py:54
+msgid "Missing site icon"
+msgstr "缺少的网站图标"
+
+#: ./browser/controlpanel.py:50
+msgid "Missing site url"
+msgstr "缺少的网址"
+
+#: ./browser/controlpanel.py:151
+msgid "New Site"
+msgstr "新网站"
+
+#. Default: "PloneBookmarklets"
+#: ./profiles/default/actionicons.xml
+msgid "PloneBookmarklets"
+msgstr "Plone书签列表"
+
+#: ./browser/controlpanel.py:160
+msgid "PloneBookmarklets Settings"
+msgstr "Plone书签列表设定"
+
+#: ./browser/controlpanel.py:147
+msgid "Settings"
+msgstr "设定"
+
+#: ./browser/controlpanel.py:161
+msgid "Settings which controls the bookmarking sites to be displayed."
+msgstr "控制书签网站显示的设定"
+
+#: ./browser/controlpanel.py:92
+msgid "The URL pointer to an image associated with the boomkarking site."
+msgstr "和书签网站相关的一个图像的网址"
+
+#: ./browser/controlpanel.py:86
+msgid "The URL to which the bookmark is sent, include the following supported parameters: URL, ENCODED_TITLE. For example, http://del.icio.us/post?url=URL&amp;title=ENCODED_TITLE"
+msgstr "书签发出的网址，包含下列支持参数：URL, ENCODED_TITLE. 例如：http://del.icio.us/post?url=URL&amp;title=ENCODED_TITLE"
+
+#: ./browser/controlpanel.py:82
+msgid "The name of the bookmarking site."
+msgstr "书签网站名字"
+

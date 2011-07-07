@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2009-07-21 22:21+0000\n"
+"PO-Revision-Date: 2009-07-30 15:25+0100\n"
+"Last-Translator: Antonio Fini <antonio.fini@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: it\n"
+"Language-Name: Italian\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: PloneBookmarklets\n"
+
+#. Default: "Bookmark this content"
+#: ./profiles/default/actions.xml
+msgid "Bookmark this content"
+msgstr "Aggiungi questo contenuto ai Preferiti"
+
+#: ./browser/controlpanel.py:91
+msgid "Bookmarking Site Icon"
+msgstr "Icona del sito di Bookmarking"
+
+#: ./browser/controlpanel.py:81
+msgid "Bookmarking Site Name"
+msgstr "Nome del sito di Bookmarking"
+
+#: ./browser/controlpanel.py:85
+msgid "Bookmarking Site Referring URL"
+msgstr "URL del sito di Bookmarking"
+
+#. Default: "Bookmarks"
+#: ./profiles/default/actions.xml
+msgid "Bookmarks"
+msgstr "Bookmak/Segnalibri"
+
+#: ./browser/controlpanel.py:73
+msgid "Choose which bookmarking services are displayed"
+msgstr "Scegli quali servizi di bookmarking visualizzare"
+
+#: ./browser/controlpanel.py:72
+msgid "Displayed Bookmarklets"
+msgstr "Bookmarklet visualizzati"
+
+#: ./browser/controlpanel.py:54
+msgid "Missing site icon"
+msgstr "Icona del sito mancante"
+
+#: ./browser/controlpanel.py:50
+msgid "Missing site url"
+msgstr "URL del sito mancante"
+
+#: ./browser/controlpanel.py:151
+msgid "New Site"
+msgstr "Nuovo sito"
+
+#. Default: "PloneBookmarklets"
+#: ./profiles/default/actionicons.xml
+msgid "PloneBookmarklets"
+msgstr "Bookmarklet Plone"
+
+#: ./browser/controlpanel.py:160
+msgid "PloneBookmarklets Settings"
+msgstr "Impostazioni Bookmarklet Plone"
+
+#: ./browser/controlpanel.py:147
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ./browser/controlpanel.py:161
+msgid "Settings which controls the bookmarking sites to be displayed."
+msgstr "Impostazioni relative ai siti di bookmarking da visualizzare"
+
+#: ./browser/controlpanel.py:92
+msgid "The URL pointer to an image associated with the boomkarking site."
+msgstr "URL dell'immagine associata al sito di bookmarking"
+
+#: ./browser/controlpanel.py:86
+msgid "The URL to which the bookmark is sent, include the following supported parameters: URL, ENCODED_TITLE. For example, http://del.icio.us/post?url=URL&amp;title=ENCODED_TITLE"
+msgstr "URL al quale inviare il bookmark, include i seguenti parametri: URL, ENCODED_TITLE. Ad esempio, http://del.icio.us/post?url=URL@amp;title=ENCODED_TITLE"
+
+#: ./browser/controlpanel.py:82
+msgid "The name of the bookmarking site."
+msgstr "Nome del sito di bookmarking."
+

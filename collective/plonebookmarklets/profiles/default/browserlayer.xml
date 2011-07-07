@@ -1,0 +1,4 @@
+<layers>
+    <layer name="collective.plonebookmarklets" 
+           interface="collective.plonebookmarklets.interfaces.IPloneBookmarkletsLayer" />
+</layers>

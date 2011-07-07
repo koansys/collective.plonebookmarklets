@@ -1,0 +1,23 @@
+/* Stylesheet for Bookmarklets */
+/* <dtml-with base_properties> */
+
+#bookmarklet-link {
+   color: &dtml-linkColor;;
+}
+
+#toggledBookmarks {
+    float:right;
+    margin-top: 10px;
+    background: &dtml-backgroundColor;;
+    display:none;
+    z-index: 1000;
+}
+
+#toggledBookmarks ul {
+    border: 1px solid &dtml-globalBorderColor;;
+    padding: 5px 0;
+    
+}
+
+
+/* </dtml-with> */

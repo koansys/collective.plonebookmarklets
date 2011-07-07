@@ -1,0 +1,39 @@
+Metadata-Version: 1.0
+Name: collective.plonebookmarklets
+Version: 2.1.3-final
+Summary: This product installs an 'Add Bookmarklet' document_action to your Plone site
+Home-page: http://plone.org/products/plonebookmarklets
+Author: enPraxis
+Author-email: info@enpraxis.net
+License: GPL
+Description: Introduction
+        ============
+        
+        PloneBookmarklets is commonly used to bookmark content on popular sites like del.icio.us, digg, etc. These bookmarklets are typically used in blogs but can be used for bookmarking any kind of content.
+        
+        Changelog
+        =========
+        
+        2.1.3
+        ----------------
+        
+        * Modified JQuery variable to mitigate namespace conflicts
+        * edited icon url paths
+        
+        2.1.2
+        ----------------
+        
+        * Added z-index to toggledBookmarks to ensure list has visibility priority
+        
+        2.1.1
+        ----------------
+        
+        * Updated JS show/hide function to JQuery call
+        * Added Twitter to bookmarks
+        
+        
+Keywords: tagging bookmarklets social bookmarking
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
