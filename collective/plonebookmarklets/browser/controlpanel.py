@@ -1,20 +1,20 @@
 ##################################################################################
 #    Copyright (c) 2004-2009 Utah State University, All rights reserved.
 #    Portions copyright 2009 Massachusetts Institute of Technology, All rights reserved.
-#                                                                                 
-#    This program is free software; you can redistribute it and/or modify         
-#    it under the terms of the GNU General Public License as published by         
-#    the Free Software Foundation, version 2.                                      
-#                                                                                 
-#    This program is distributed in the hope that it will be useful,              
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of               
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                
-#    GNU General Public License for more details.                                 
-#                                                                                 
-#    You should have received a copy of the GNU General Public License            
-#    along with this program; if not, write to the Free Software                  
-#    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA    
-#                                                                                 
+#
+#    This program is free software; you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, version 2.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program; if not, write to the Free Software
+#    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
 ##################################################################################
 
 __author__  = '''Brent Lambert, David Ray, Jon Thomas, Shane Graber'''
@@ -28,13 +28,13 @@ from plone.fieldsets.fieldsets import FormFieldsets
 from zope.schema import TextLine, Choice, Tuple
 from zope.schema.vocabulary import SimpleVocabulary
 from Products.CMFDefault.formlib.schema import SchemaAdapterBase
-from Products.CMFPlone import PloneMessageFactory 
+from Products.CMFPlone import PloneMessageFactory
 from collective.plonebookmarklets import PloneBookmarkletsMessageFactory as _
 from Products.CMFPlone.utils import getToolByName
 from Products.CMFPlone.interfaces import IPloneSiteRoot
 from Products.CMFCore.interfaces import IPropertiesTool
 from plone.app.controlpanel.form import ControlPanelForm
-from plone.app.controlpanel.widgets import MultiCheckBoxVocabularyWidget 
+from plone.app.controlpanel.widgets import MultiCheckBoxVocabularyWidget
 
 
 
@@ -54,7 +54,7 @@ def validate_new_site(form, action, data):
             return ew._error
 
 
-    
+
 
 
 def availablevocab(context):
@@ -154,7 +154,7 @@ class BookmarkletsControlPanel(ControlPanelForm):
     implements(IbookmarkletsControlPanel)
     form_fields = FormFieldsets(settingsset, newsiteset)
     form_fields['displayed_sites'].custom_widget = MultiCheckBoxVocabularyWidget
-    
+
 
     label = _(u'PloneBookmarklets Settings')
     description = _(u'Settings which controls the bookmarking sites to be displayed.')
@@ -176,4 +176,4 @@ class BookmarkletsControlPanel(ControlPanelForm):
             self.request['fieldset.current'] = u'fieldsetlegend-bookmarkletssettings'
         else:
             self.status = _("No changes made.")
-            
+
