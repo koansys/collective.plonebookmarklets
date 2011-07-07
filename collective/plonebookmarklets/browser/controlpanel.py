@@ -24,7 +24,7 @@ from zope.interface import Interface, implements
 from zope.component import adapts, getUtility
 from zope.formlib import form
 from zope.app.form.interfaces import WidgetInputError
-from plone.fieldsets import FormFieldsets
+from plone.fieldsets.fieldsets import FormFieldsets
 from zope.schema import TextLine, Choice, Tuple
 from zope.schema.vocabulary import SimpleVocabulary
 from Products.CMFDefault.formlib.schema import SchemaAdapterBase

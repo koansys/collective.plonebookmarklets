@@ -5,7 +5,8 @@
            xmlns:i18n="http://namespaces.zope.org/i18n"
            i18n_domain="PloneBookmarklets">
 
- 
+
+  <include package="Products.CMFCore" file="permissions.zcml" />
   <browser:page
         name="bookmarklets"
         for="collective.plonebookmarklets.interfaces.IPortalObject"
@@ -41,8 +42,5 @@
     />
 
 
-  <five:traversable class="OFS.Application.Application" /> 
-  
-  <five:traversable class="Products.CMFCore.PortalObject.PortalObjectBase" />
 
 </configure>
